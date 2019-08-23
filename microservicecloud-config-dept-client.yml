@@ -37,11 +37,11 @@ eureka:
     #修改eureka server中微服务application微服务的status名称
     prefer-ip-address: true   #访问路径可以显示IP地址
     
-info:
-  app.name: twkj-microservicecloud
-  company.name: www.jxtwkj.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+#info:
+#  app.name: twkj-microservicecloud
+#  company.name: www.jxtwkj.com
+#  build.artifactId: $project.artifactId$
+#  build.version: $project.version$
 ---
 server:
   port: 8001 
@@ -77,8 +77,8 @@ eureka:
     #修改eureka server中微服务application微服务的status名称
     prefer-ip-address: true   #访问路径可以显示IP地址
 
-info:
-  app.name: twkj-microservicecloud
-  company.name: www.jxtwkj.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+#info:
+#  app.name: twkj-microservicecloud
+#  company.name: www.jxtwkj.com
+#  build.artifactId: $project.artifactId$
+#  build.version: $project.version$
