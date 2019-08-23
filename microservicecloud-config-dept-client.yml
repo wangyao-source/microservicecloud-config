@@ -40,8 +40,8 @@ eureka:
 info:
   app.name: twkj-microservicecloud
   company.name: www.jxtwkj.com
-  build.artifactId: ${project.artifactId}
-  build.version: ${project.version}
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
 ---
 server:
   port: 8001 
@@ -80,5 +80,5 @@ eureka:
 info:
   app.name: twkj-microservicecloud
   company.name: www.jxtwkj.com
-  build.artifactId: ${project.artifactId}
-  build.version: ${project.version}
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
